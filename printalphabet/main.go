@@ -7,7 +7,6 @@ func main() {
 	var i rune
 
 	for i = 97; i <= 122; i++ { 
-	
 		z01.PrintRune(i)
 	}
 	
