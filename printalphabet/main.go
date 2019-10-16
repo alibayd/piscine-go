@@ -1,14 +1,11 @@
 package main
 
-import (
-	"github.com/01-edu/z01"
-)
+import "github.com/01-edu/z01"
 
-func main() {	
+func main() {
 	var i rune
-	for i = 97; i < 123; i++ { 
+	for i = 97; i <=122; i++{
 		z01.PrintRune(i)
 	}
-	
-	z01.PrintRune(10)
+	z01.PrintRune('\n')
 }
