@@ -16,6 +16,7 @@ func PrintComb() {
 					z01.PrintRune(c)
 					if a <= 54 {
 						z01.PrintRune(44)
+						z01.PrintRune(32)
 					}
 				}
 
