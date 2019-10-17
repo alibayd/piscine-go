@@ -15,5 +15,5 @@ func PrintStr(str string) {
 	z01.PrintRune(rune(str[9]))
 	z01.PrintRune(rune(str[10]))
 	z01.PrintRune(rune(str[11]))
-	z01.PrintRune(37)
+	z01.PrintRune(10)
 }
