@@ -3,5 +3,5 @@ package piscine
 import "fmt"
 
 func PrintStr(str string) {
-	fmt.Println(str)
+	fmt.Printf("%v",str)
 }
