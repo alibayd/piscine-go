@@ -1,6 +1,5 @@
 package piscine
 
 func PointOne(n *int) {
-	*b=1
+	*b = 1
 }
-
