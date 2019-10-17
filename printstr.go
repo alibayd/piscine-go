@@ -1,6 +1,6 @@
-package main
+package piscine
 
-import "github.com/01-edu/z01"
+import "fmt"
 
 func PrintStr(str string) {
 	for i = 0; i <= 12; i++ {
