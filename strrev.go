@@ -7,7 +7,7 @@ func StrRev(s string) string {
 	ar := []rune(s)
 	var len int
 	for k := range ar {
-		len = k 
+		len = k
 	}
 	var d int = len
 
