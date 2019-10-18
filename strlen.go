@@ -1,9 +1,10 @@
 package piscine
 
 func StrLen(str string) int {
+	ar := []rune(str)
 	var len int
-	for index := range str {
-		len = index + 1
+	for i  := range ar {
+		len = i + 1
 	}
 	return len
 }
