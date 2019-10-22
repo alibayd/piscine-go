@@ -27,5 +27,20 @@ func Index(s string, toFind string) int {
 			}
 		}
 	}
+
+	for ind, i := range gv {
+		for _, j := range toFind {
+			if i == j {
+				count++
+				if count == len {
+					return ind
+				}
+			}
+		}
+	}
+	
+
+
+
 	return 1
 }
