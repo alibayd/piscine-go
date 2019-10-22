@@ -27,7 +27,7 @@ func TrimAtoi(s string) int {
 	}
 
 	var len int = 0
-	for i, _ := range only {
+	for i := range only {
 		len = i + 1
 	}
 
