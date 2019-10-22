@@ -28,12 +28,13 @@ func Index(s string, toFind string) int {
 		}
 	}
 	count = 0
+
 	for ind, i := range gv {
-		for _, j := range toFind {
+		for ind1, j := range toFind {
 			if i == j {
 				count++
 				if count == len {
-					return (ind + 1 - len)
+					return (ind - ind1)
 				}
 			}
 		}
