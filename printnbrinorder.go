@@ -13,7 +13,7 @@ func PrintNbrInOrder(n int) {
 			break
 		}
 	}
-	
+
 	for {
 		y := n % 10
 		n /= 10
