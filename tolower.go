@@ -1,6 +1,6 @@
 package piscine
 
-func ToUpper(s string) string {
+func ToLower(s string) string {
 	ss := []rune(s)
 	for i := 0; i < len(s); i++ {
 		if ss[i] >= 'a' && ss[i] <= 'z' {
