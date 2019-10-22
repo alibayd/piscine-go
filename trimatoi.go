@@ -10,7 +10,7 @@ func TrimAtoi(s string) int {
 	var only []int
 	var sn int = 1
 	for _, letter := range ru {
-		if letter == '-' && only == nill {
+		if letter == '-' && only == nil {
 			sn = -sn
 		}
 		dg := 0
