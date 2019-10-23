@@ -8,9 +8,8 @@ func Capitalize(s string) string {
 				ar[i] -= 32
 			}
 		} else if ar[i] >= 'A' && ar[i] <= 'Z' {
-				ar[i] += 32
+			ar[i] += 32
 		}
 	}
 	return string(ar)
 }
-
