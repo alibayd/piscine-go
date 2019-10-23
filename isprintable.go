@@ -8,7 +8,7 @@ func IsPrintable(str string) bool {
 		len = i + 1
 	}
 	for i := 0; i < len; i++ {
-		if (ar[i] >= 'A' && ar[i] <= 'Z') || (ar[i] >= 'a' && ar[i] <= 'z') || (ar[i] >= '0' && ar[i] <= '9') {
+		if ar[i] >= ' ' && ar[i] <= '~' {
 			count++
 		}
 	}
