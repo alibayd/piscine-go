@@ -6,10 +6,14 @@ import (
 )
 
 func main() {
+	var len int
 	for i := range os.Args {
+		len = i + 1
+	}
+	for i := 1; i < len; i++ {
 		ar := []rune(os.Args[i])
-		for _, j := range ar {
-			z01.PrintRune(j)
+		for _, k := range ar {
+			z01.PrintRune(k)
 		}
 		z01.PrintRune('\n')
 	}
