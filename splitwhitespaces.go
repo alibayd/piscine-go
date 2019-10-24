@@ -1,7 +1,5 @@
 package piscine
 
-import "fmt"
-
 func SplitWhiteSpaces(str string) []string {
 	ar := []rune(str)
 	var wrds int
