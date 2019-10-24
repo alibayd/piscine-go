@@ -8,8 +8,7 @@ func AppendRange(min, max int) []int {
 	var rg int = max - min
 
 	for i := 0; i < rg; i++ {
-		ans = append(ans, min + i)
+		ans = append(ans, min+i)
 	}
-	
 	return ans
 }
