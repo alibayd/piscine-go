@@ -14,6 +14,7 @@ func SplitWhiteSpaces(str string) []string {
 	var ind_of_prev_sp int
 	ans := make([]string, wrds)
 	var numb_spaces int = 0
+	var ss string
 	for i, j := range ar {
 		if j == ' ' || j == ' ' || j == '\n' {
 			if numb_spaces == 0 { // [word_]
