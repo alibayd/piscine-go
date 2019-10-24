@@ -23,7 +23,7 @@ func SplitWhiteSpaces(str string) []string {
 				for k := 0; k < i; k++ {
 					ru[k] = ar[k]
 				}
-				ss := string(ru)
+				ss = string(ru)
 				ans[0] = ss
 				ind_of_prev_sp = i
 			} else if numb_spaces < (wrds - 1) { //[w1_word2_]
@@ -32,7 +32,7 @@ func SplitWhiteSpaces(str string) []string {
 				for k := 0; k < l_of_rune; k++ {
 					ru[k] = ar[ind_of_prev_sp+1+k]
 				}
-				ss := string(ru)
+				ss = string(ru)
 				ans[numb_spaces] = ss
 				numb_spaces++
 				ind_of_prev_sp = i
@@ -43,7 +43,7 @@ func SplitWhiteSpaces(str string) []string {
 			for k := 0; k < l_of_rune; k++ {
 				ru[k] = ar[ind_of_prev_sp+1+k]
 			}
-			ss := string(ru)
+			ss = string(ru)
 			ans[numb_spaces] = ss
 			numb_spaces++
 		}
